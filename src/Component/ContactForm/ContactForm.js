@@ -28,9 +28,9 @@ const ContactForm = () => {
       <div className="md:grid md:grid-cols-2 gap-10 mt-6">
         <form
           onSubmit={handleSubmit}
-          className="grid grid-cols-2 gap-x-8 self-center"
+          className="grid grid-cols-2 gap-x-8 self-center md:mx-1 mx-2"
         >
-          <div className="self-center py-6">
+          <div className="self-center py-6  ">
             <label
               htmlFor="name"
               className="block text-gray-700 text-sm font-bold "
@@ -46,7 +46,7 @@ const ContactForm = () => {
               className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             />
           </div>
-          <div className="self-center py-6">
+          <div className="self-center py-6 ">
             <label
               htmlFor="email"
               className="block text-gray-700 text-sm font-bold "

@@ -11,20 +11,20 @@ import "./HomeServices.css";
 
 const HomeServices = () => {
   return (
-    <div className="max-w-[1240px] mx-auto  my-14 " id="services">
+    <div className="max-w-[1240px] mx-auto    " id="services">
       <div className=" text-center">
         <h1 className=" welcome">Our Services</h1>
       </div>
-      <div className="grid md:grid-cols-4 md:text-left text-center gap-8 mt-12 ">
-        <div className=" col-span-2 self-center">
-          <h3 className="reactIconsText text-4xl text-[#1D274E] font-bold">
+      <div className="md:grid md:grid-cols-4  gap-8 mt-12 ">
+        <div className=" col-span-2 ">
+          <h3 className="reactIconsText text-4xl text-[#1D274E] font-bold md:mx-2 mx-5">
             All the possible solutions to grow your business
           </h3>
-          <p className="text-[#7C84A6] mt-3">
+          <p className="text-[#7C84A6] mt-3 md:mx-2 mx-5">
             We love what we do and we do it with passion
           </p>
         </div>
-        <div className=" singleCard md:m-2 m-5 p-5">
+        <div className=" singleCard  p-5">
           <div className="serviceIcon mr-2 ">
             <IoBarChartOutline className="serviceIcon-1" size={"3rem"} />
           </div>
@@ -33,7 +33,7 @@ const HomeServices = () => {
             Lead <br /> Generation
           </h6>
         </div>
-        <div className=" singleCard md:m-2 m-5 p-5">
+        <div className=" singleCard  p-5">
           <div className="serviceIcon mr-2">
             <IoSearchOutline className="serviceIcon-1" size={"3rem"} />
           </div>
@@ -43,7 +43,7 @@ const HomeServices = () => {
           </h6>
         </div>
 
-        <div className="singleCard md:m-2 m-5 p-5">
+        <div className="singleCard  p-5">
           <div className="serviceIcon mr-2">
             <IoMailOpenOutline className="serviceIcon-1" size={"3rem"} />
           </div>
@@ -52,7 +52,7 @@ const HomeServices = () => {
             Email <br /> Marketing
           </h6>
         </div>
-        <div className="singleCard md:m-2 m-5 p-5">
+        <div className="singleCard  p-5">
           <div className="serviceIcon mr-2">
             <IoCodeSlashOutline className="serviceIcon-1" size={"3rem"} />
           </div>
@@ -61,7 +61,7 @@ const HomeServices = () => {
             Web Design <br /> Development
           </h6>
         </div>
-        <div className="singleCard md:m-2 m-5 p-5">
+        <div className="singleCard  p-5">
           <div className="serviceIcon mr-2">
             <IoMegaphoneOutline className="serviceIcon-1" size={"3rem"} />
           </div>
@@ -70,7 +70,7 @@ const HomeServices = () => {
             Digital <br /> Marketing
           </h6>
         </div>
-        <div className="singleCard md:m-2 m-5 p-5">
+        <div className="singleCard  p-5">
           <div className="serviceIcon mr-2">
             <IoPencilOutline className="serviceIcon-1" size={"3rem"} />
           </div>
