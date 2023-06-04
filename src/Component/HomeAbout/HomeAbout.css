@@ -1,0 +1,10 @@
+.HomeAbout {
+  background-image: url("../Images/bg-section-stared.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media (max-width: 768px) {
+  .HomeAbout {
+    background-image: none;
+  }
+}

@@ -1,0 +1,9 @@
+.client {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#015dc7),
+    to(#a200ff)
+  );
+}

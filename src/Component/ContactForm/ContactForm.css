@@ -1,0 +1,8 @@
+.infoDiv {
+  text-align: -webkit-center;
+}
+@media (max-width: 768px) {
+  .btnAlign {
+    text-align: -webkit-center;
+  }
+}

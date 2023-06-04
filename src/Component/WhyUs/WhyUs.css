@@ -1,0 +1,30 @@
+.reactIcons {
+  text-align: -webkit-center;
+  background-color: transparent;
+  color: #6747ee;
+}
+
+.reactIconsText {
+  color: #1d274e;
+}
+.singleCard {
+  background-color: #ffff;
+  border-radius: 15px;
+  transition: all;
+}
+.singleCard:hover {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#015dc7),
+    to(#a200ff)
+  );
+  color: white;
+}
+.singleCard:hover .reactIcons {
+  color: white;
+}
+.singleCard:hover .reactIconsText {
+  color: white;
+}
