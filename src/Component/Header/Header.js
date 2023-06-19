@@ -18,23 +18,37 @@ const Header = () => {
         <ul className="hidden md:flex">
           <li className="p-4">
             {" "}
-            <a href="/">Home</a>{" "}
+            <a className="text-[#7C84A6]" href="/">
+              Home
+            </a>{" "}
           </li>
           <li className="p-4">
             {" "}
-            <a href="#about">About</a>{" "}
+            <a className="text-[#7C84A6]" href="#about">
+              About
+            </a>{" "}
           </li>
           <li className="p-4">
             {" "}
-            <a href="#services">Services</a>{" "}
+            <a className="text-[#7C84A6]" href="#services">
+              Services
+            </a>{" "}
+          </li>
+          <li className="p-4">
+            {" "}
+            <a className="text-[#7C84A6]" href="#services">
+              Blog{" "}
+            </a>{" "}
           </li>
 
           <li className="p-4">
             {" "}
-            <a href="#contact_us">Contact Us</a>{" "}
+            <a className="text-[#7C84A6]" href="#contact_us">
+              Contact Us
+            </a>{" "}
           </li>
         </ul>
-        <button className="hidden md:flex rounded py-2 px-8 font-bold cursor-pointer bg-gradient-to-r from-[#005dc7] to-[#a100ff] text-white transition ease-in-out delay-800 hover:from-blue-800 hover:to-green-500">
+        <button className="hidden md:flex rounded py-2 px-8 font-bold cursor-pointer bg-gradient-to-r from-[#005dc7] to-[#a100ff] text-white">
           <a href="#contact_us">Quote</a>
         </button>
         <div onClick={handleHead} className=" p-5 none md:hidden ">
@@ -60,6 +74,9 @@ const Header = () => {
             </li>
             <li className="p-4 border-b border-gray-600 ">
               <a href="#services">Services</a>
+            </li>
+            <li className="p-4 border-b border-gray-600 ">
+              <a href="#services">Blog</a>
             </li>
 
             <li className="p-4">

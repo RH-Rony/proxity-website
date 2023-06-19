@@ -28,3 +28,6 @@
 .singleCard:hover .reactIconsText {
   color: white;
 }
+.singleCard:hover .whyText {
+  color: white;
+}

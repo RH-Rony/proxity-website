@@ -22,7 +22,7 @@ const WhyUs = () => {
             <h3 className=" reactIconsText text-2xl  font-bold text-center mb-8">
               Competitive Price
             </h3>
-            <p className="text-center text-[#7C84A6] px-10 mb-12 hover:text-white">
+            <p className="whyText text-center text-[#7C84A6] px-10 mb-12 hover:text-white">
               We believe in providing our clients with clear and competitive
               pricing structures that align with the value we deliver.With our
               comparative pricing model, Proxity offer tailored solutions that
@@ -36,7 +36,7 @@ const WhyUs = () => {
             <h3 className=" reactIconsText text-2xl font-bold text-center mb-8">
               Quality Over Quantity
             </h3>
-            <p className="text-center text-[#7C84A6] px-10 mb-12 hover:text-white">
+            <p className="whyText text-center text-[#7C84A6] px-10 mb-12 hover:text-white">
               At Proxity, we firmly believe that quality triumphs over quantity
               in the digital realm. In a world inundated with content and
               fast-paced consumption, we stand out by prioritizing excellence
@@ -51,7 +51,7 @@ const WhyUs = () => {
             <h3 className=" reactIconsText text-2xl  font-bold text-center mb-8">
               24/7 Support
             </h3>
-            <p className="text-center text-[#7C84A6] px-10 mb-12 hover:text-white">
+            <p className=" whyText text-center text-[#7C84A6] px-10 mb-12 hover:text-white">
               We understand the importance of providing exceptional customer
               support that goes beyond standard business hours.With our 24/7
               support, you can have peace of mind knowing that a dedicated team
