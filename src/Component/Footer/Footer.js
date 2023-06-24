@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import { SocialIcon } from "react-social-icons";
 
 const Footer = () => {
   return (
@@ -44,6 +45,18 @@ const Footer = () => {
               </li>
               <li>Phone: +8801681536400</li>
             </ul>
+            <div className="mt-3">
+              <SocialIcon
+                className="m-1"
+                style={{ height: 40, width: 40 }}
+                url="https://www.facebook.com/proxitytech"
+              />
+              <SocialIcon
+                className="m-1"
+                style={{ height: 40, width: 40 }}
+                url="https://www.linkedin.com/company/proxitytech"
+              />
+            </div>
           </div>
         </div>
       </div>

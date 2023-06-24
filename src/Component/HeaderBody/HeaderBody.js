@@ -5,7 +5,7 @@ import "./HeaderBody.css";
 
 const HeaderBody = () => {
   return (
-    <div className="grid  md:grid-cols-2     max-w-[1240px] mx-auto mb-8">
+    <div className="grid  md:grid-cols-2   max-w-[1240px] mx-auto mb-8">
       <div className="   text-center md:text-left self-center ml-5  ">
         <h4 className=" welcome text-2xl font-semibold my-3 ">
           Welcome to Proxity Tech Solution

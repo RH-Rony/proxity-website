@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { IoHomeOutline, IoCallOutline, IoMailOutline } from "react-icons/io5";
 import "./ContactForm.css";
+import { SocialIcon } from "react-social-icons";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -108,6 +109,18 @@ const ContactForm = () => {
           <a href="mailto:info@proxitytech.com" className=" text-[#7C84A6]">
             info@proxitytech.com
           </a>
+          <div className="mt-3">
+            <SocialIcon
+              className="m-1"
+              style={{ height: 40, width: 40 }}
+              url="https://www.facebook.com/proxitytech"
+            />
+            <SocialIcon
+              className="m-1"
+              style={{ height: 40, width: 40 }}
+              url="https://www.linkedin.com/company/proxitytech"
+            />
+          </div>
         </div>
       </div>
     </div>
